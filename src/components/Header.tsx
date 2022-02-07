@@ -1,7 +1,7 @@
 import React from "react";
 import SunIcon from "./Icons/SunIcon";
 import MoonIcon from "./Icons/MoonIcon";
-import avatar from "../assets/avatar.svg";
+import logo from "../assets/happy-trigger.png";
 import "../css/skeleton.css";
 import "../css/normalize.css";
 import "../css/components.css";
@@ -20,10 +20,10 @@ function Header() {
     return (
         <div className="Header container">
             <div className="ten columns Header__inner">
-                <img src={avatar} alt="avatar" />
+                <img src={logo} alt="Happy Trigger" />
                 &nbsp;&nbsp;&nbsp;
                 <h2>
-                    <b>Sagnik </b>
+                    <b>Happy Trigger Open Major S2</b>
                 </h2>
             </div>
             <button className="switch-theme-button" onClick={handleSwitchTheme}>

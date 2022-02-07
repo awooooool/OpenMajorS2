@@ -51,6 +51,10 @@ img {
     margin-bottom: 5%;
 }
 
+.ads {
+    margin-top: 0 !important;
+}
+
 a,
 a:hover {
     text-decoration: none;

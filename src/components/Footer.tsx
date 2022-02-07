@@ -9,7 +9,7 @@ function Footer() {
         <div className="Footer container">
             <p>
                 Made with <span className="heart">❤️</span> by{" "}
-                <a href={"https://twitter.com/heysagnik"}>Sagnik Sahoo</a>
+                <a href={"https://happytrigger.net"}>Happy Trigger</a>
             </p>
         </div>
     );
