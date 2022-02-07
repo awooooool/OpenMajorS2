@@ -5,10 +5,18 @@ import '../css/normalize.css'
 import '../css/components.css'
 import { motion } from "framer-motion"
 
-function Card(props) {
+interface Props {
+    i: number,
+    title: string,
+    subtitle: string,
+    link: string,
+    cover: string
+}
+
+function Card(props: Props) {
 
     const variants = {
-        visible: i => ({
+        visible: (i: any) => ({
             opacity: 1,
             y: 0,
             transition: {

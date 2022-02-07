@@ -20,8 +20,7 @@ function App() {
                             title={item.title}
                             subtitle={item.subtitle}
                             link={item.link}
-                            cover={item.image}>
-                            </Card>
+                            cover={item.image} />
                         )
                     })
                 }

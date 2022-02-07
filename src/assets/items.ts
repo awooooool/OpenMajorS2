@@ -7,7 +7,16 @@ import github from '../assets/github.png'
 import telegram from '../assets/telegram.png'
 import twitter from '../assets/twitter.png'
 
-const items = [{
+interface ItemsObject {
+    "title": string,
+    "subtitle": string,
+    "image": string,
+    "link": string
+}
+
+interface Items extends Array<ItemsObject> {}
+
+const items: Items = [{
     "title": "Website",
     "subtitle": "Look at my work!",
     "image": website,

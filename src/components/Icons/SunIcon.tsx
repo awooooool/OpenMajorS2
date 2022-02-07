@@ -1,4 +1,8 @@
-export default function SunIcon(props) {
+interface Props {
+  color: string
+}
+
+export default function SunIcon(props: Props) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -10,7 +14,7 @@ export default function SunIcon(props) {
       stroke-width="2"
       stroke-linecap="round"
       stroke-linejoin="round"
-      class="feather feather-sun"
+      className="feather feather-sun"
       {...props}
     >
       <circle cx="12" cy="12" r="5"></circle>
