@@ -12,7 +12,7 @@ const items: Items = [
         title: "Registrasi",
         subtitle: "Form pendaftaran",
         image: "https://placehold.co/300x100",
-        link: "https://happytrigger.net", //your personal website or portfolio  link
+        link: "https://forms.gle/dd4Qyr67tbfZ9CcdA", //your personal website or portfolio  link
     },
     {
         title: "Handbook",
