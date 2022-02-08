@@ -25,7 +25,7 @@ function App() {
                 })}
             </div>
             <div className="container">
-                <h2>Sposnored</h2>
+                <h2>Our sposnors</h2>
             </div>
             <div className="container row ads">
                 {ads.map((item, i) => {
