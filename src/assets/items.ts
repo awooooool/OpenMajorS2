@@ -1,6 +1,6 @@
-import paperfive from './paperfive.jpg'
-import registration from './registration.jpg'
-import info from './ingfo.jpg'
+import paperfive from "./paperfive.jpg";
+import registration from "./registration.jpg";
+import info from "./ingfo.jpg";
 
 interface ItemsObject {
     title: string;
@@ -9,7 +9,7 @@ interface ItemsObject {
     link: string;
 }
 
-interface Items extends Array<ItemsObject> { }
+interface Items extends Array<ItemsObject> {}
 
 const items: Items = [
     {
