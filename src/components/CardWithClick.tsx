@@ -4,7 +4,7 @@ import "../css/skeleton.css";
 import "../css/normalize.css";
 import "../css/components.css";
 import { motion } from "framer-motion";
-import info from "../assets/ingfo.jpg";
+import sponsor from '../assets/sponsor.jpg'
 
 function CardWithClick(props: any) {
     const variants = {
@@ -35,7 +35,7 @@ function CardWithClick(props: any) {
                 custom={props.i}
                 variants={variants}
             >
-                <img className="cover" src={info} alt=""></img>
+                <img className="cover" src={sponsor} alt=""></img>
                 <div className="data">
                     <h2>Sponsors</h2>
                     <p>Sponsorsssss kami</p>
