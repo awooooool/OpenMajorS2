@@ -1,4 +1,3 @@
-import paperfive from "./paperfive.jpg";
 import registration from "./registration.jpg";
 import info from "./ingfo.jpg";
 
@@ -26,25 +25,6 @@ const items: Items = [
     },
 ];
 
-const ads: Items = [
-    {
-        title: "Paperfive Store",
-        subtitle: "Lorem ipsum dolor sit amet",
-        image: paperfive,
-        link: "https://www.instagram.com/storepaperfive/",
-    },
-    {
-        title: "Slot 2",
-        subtitle: "Lorem ipsum dolor sit amet",
-        image: "https://placehold.co/300x100",
-        link: "https://happytrigger.net",
-    },
-    {
-        title: "Slot 3",
-        subtitle: "Lorem ipsum dolor sit amet",
-        image: "https://placehold.co/300x100",
-        link: "https://happytrigger.net",
-    },
-];
+const ads: Items = [];
 
 export { items, ads };
