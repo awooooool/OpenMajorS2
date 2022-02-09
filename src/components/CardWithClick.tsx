@@ -38,7 +38,7 @@ function CardWithClick(props: any) {
                 <img className="cover" src={sponsor} alt=""></img>
                 <div className="data">
                     <h2>Sponsors</h2>
-                    <p>Sponsors kami</p>
+                    <p>Sponsor kami</p>
                 </div>
             </motion.div>
         </a>
